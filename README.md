@@ -30,3 +30,5 @@ These instructions will get you a copy of the project up and running on your loc
 
 
 [Operating System]: <https://en.wikipedia.org/wiki/Windows_10>
+[Python Version]: <https://www.python.org/downloads/>
+[Python Modules]: <https://www.w3schools.com/python/python_modules.asp>
