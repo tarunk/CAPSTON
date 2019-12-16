@@ -129,16 +129,24 @@ def olsModel(X, Y, y_col):
 
 ## Read Data for WTI oil
 def main():
-    readFile = 'crudeOilPriceWTI1.csv'
+    readFile = 'crudeOilPriceWTI.csv'
     ligthFuelOil = 'lightFuelOil.csv'
     gasoline = 'Gasoline.csv'
+    jetFuel = 'usJetFuel.csv'
+    kerosene = 'usKerosin.csv'
+    
     dataCrudeOilWTI = readData(readFile)
     dataLigthFuelOil = readData(ligthFuelOil)
     dataGasoline = readData(gasoline)
+    dataJetFuel = readData(jetFuel)
+    keroseneOil = readData(kerosene)
+    print(keroseneOil['Kerosene'])
+    
     ##print(dataGasoline.head())
     qqPlot(dataCrudeOilWTI, 'WTI')
     # Merge two Dataframes on index of both the dataframes
     oilData = dataCrudeOilWTI.merge(dataLigthFuelOil, left_index=True, right_index=True)
+    '''
     print(oilData.head())
     priceTrend(oilData)
     getSkewAndKurt(oilData, 'WTI')
@@ -147,8 +155,10 @@ def main():
     
     arimaModelFitAnalysis(oilData, 'WTI')
     arimaModelRollingForCast(oilData, 'WTI')
-    
-    olsModel(oilData['WTI'], dataGasoline['Gasolin'], 'Gasoline')
+    '''
+    ##olsModel(oilData['WTI'], dataGasoline['Gasolin'], 'Gasoline')
+    ##olsModel(oilData['WTI'], dataJetFuel['JetFuel'], 'US Jet Fuel')
+    olsModel(oilData['WTI'], keroseneOil['Kerosene'], 'US Kerosene')
 '''
     print(oilData.head())
     priceTrend(dataCrudeOilWTI, 'OilPriceWTI')
