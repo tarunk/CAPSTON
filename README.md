@@ -11,5 +11,17 @@ Crude oil prices typically maintain certain statistical relationships with the p
   - Compare key statistical metrics across the different markets and assess similarities and differences, including measures like variance, skew, kurtosis, covariance, ARIMA parameters.
   - Discuss possible economic explanations for differences.
   
-  ## Getting Started
-  These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See Deployment / Installation for notes on how to deploy the project on a live system.
+## Getting Started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See Deployment / Installation for notes on how to deploy the project on a live system.
+## Prerequisites
+#### This project was developed within the below environment:
+* [Operating system] – Microsoft Windows 10
+Python Version – Python 3.7
+3.	Python Modules
+a.	pandas
+b.	matplotlib
+c.	scipy
+d.	stats
+e.	statsmodel.api
+f.	seaborn
+g.	sklearn
