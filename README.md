@@ -16,12 +16,12 @@ These instructions will get you a copy of the project up and running on your loc
 ## Prerequisites
 #### This project was developed within the below environment:
 * [Operating system] – Microsoft Windows 10
-Python Version – Python 3.7
-3.	Python Modules
-a.	pandas
-b.	matplotlib
-c.	scipy
-d.	stats
-e.	statsmodel.api
-f.	seaborn
-g.	sklearn
+* [Python Version] – Python 3.7
+*	[Python Modules]
+    a.	pandas
+    b.	matplotlib
+    c.	scipy
+    d.	stats
+    e.	statsmodel.api
+    f.	seaborn
+    g.	sklearn
