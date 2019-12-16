@@ -15,7 +15,7 @@ Crude oil prices typically maintain certain statistical relationships with the p
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See Deployment / Installation for notes on how to deploy the project on a live system.
 ## Prerequisites
 #### This project was developed within the below environment:
-* [Operating system] – Microsoft Windows 10
+* [Operating System] – Microsoft Windows 10
 * [Python Version] – Python 3.7
 *	[Python Modules]
     a.	pandas
@@ -25,3 +25,6 @@ These instructions will get you a copy of the project up and running on your loc
     e.	statsmodel.api
     f.	seaborn
     g.	sklearn
+    
+[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job.
+[Operating System] <https://en.wikipedia.org/wiki/Windows_10>
