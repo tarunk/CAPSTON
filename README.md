@@ -1,3 +1,3 @@
 ## Project Title
 # WQU Capstone Project – Group 25 – Draft Project
-World Quant University Final Capston project
+Commodities – Oil / Oil products relationships in different markets
